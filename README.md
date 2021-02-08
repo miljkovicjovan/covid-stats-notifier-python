@@ -9,7 +9,7 @@ Data is fetched with this API:
 change the ending of the link with the country of your choice
 
 To run this program in the back run this command in the cmd:
->python.exe .\<your-file-name-here>
+>python.exe .\your-file-name-here
 
 Change these variables to suit your need:
 >**timeout** *-is used to allow the notification to stay for the certain period of time in seconds*
