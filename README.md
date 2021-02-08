@@ -1,3 +1,16 @@
 # Desktop Notifier App  
 
-Have you ever wondered how notifications work? This small python project idea will throw some light on this. The desktop notifier apps run on your system and send you a piece of information after a fixed interval of time. We suggest you use libraries such as notify2, requests, etc. to build such a program.
+The packages used: 
+*requests (for fetching data)
+*plyer (for creating pc notification)
+
+Data is fetched with this API:
+>https://corona-rest-api.herokuapp.com/Api/serbia
+change the ending of the link with the country of your choice
+
+To run this program in the back run this command in the cmd:
+>python.exe .\<your-file-name-here>
+
+Change these variables to suit your need:
+>**timeout** *-is used to allow the notification to stay for the certain period of time in seconds*
+>**time.sleep()** *-tells after what interval of time the notification should popup*
